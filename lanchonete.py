@@ -17,3 +17,28 @@ print("4 - Refrigerante ..... R$ 6,00")
 print("5 - Suco ............. R$ 8,00")
 print("0 - Finalizar pedido")
 print("==============================")
+
+opcao = int(input("Digite o código do produto: "))
+
+if opcao == 1:
+    produto = "X-Burguer"
+    preco = 15.00
+
+elif opcao == 2:
+    produto = "X-Salada"
+    preco = 18.00
+
+elif opcao == 3:
+    produto = "Batata Frita"
+    preco = 10.00
+
+elif opcao == 4:
+    produto = "Refrigerante"
+    preco = 6.00
+
+elif opcao == 5:
+    produto = "Suco"
+    preco = 8.00
+
+else:
+    print("Código inválido.")
