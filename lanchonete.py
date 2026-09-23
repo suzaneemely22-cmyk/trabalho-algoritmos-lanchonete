@@ -42,3 +42,16 @@ elif opcao == 5:
 
 else:
     print("Código inválido.")
+    codigo_valido = False
+
+if codigo_valido:
+    quantidade = int(input("Digite a quantidade desejada: "))
+
+    subtotal = preco * quantidade
+
+    print()
+    print("Produto:", produto)
+    print("Preço unitário: R$", preco)
+    print("Quantidade:", quantidade)
+    print("Subtotal: R$", subtotal)
+    
