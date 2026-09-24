@@ -1,5 +1,5 @@
 print("================================")
-print("     LANCHONETE SABOR & CIA")
+print("     LANCHONETE BURGER")
 print("================================")
 
 nome = input("Digite seu nome: ")
