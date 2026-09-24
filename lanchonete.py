@@ -23,26 +23,32 @@ opcao = int(input("Digite o código do produto: "))
 if opcao == 1:
     produto = "X-Burguer"
     preco = 15.00
+    codigo_valido = True
 
 elif opcao == 2:
     produto = "X-Salada"
     preco = 18.00
+    codigo_valido = True
 
 elif opcao == 3:
     produto = "Batata Frita"
     preco = 10.00
+    codigo_valido = True
 
 elif opcao == 4:
     produto = "Refrigerante"
     preco = 6.00
+    codigo_valido = True
 
 elif opcao == 5:
     produto = "Suco"
     preco = 8.00
+    codigo_valido = True
 
 else:
     print("Código inválido.")
     codigo_valido = False
+
 
 if codigo_valido:
     quantidade = int(input("Digite a quantidade desejada: "))
